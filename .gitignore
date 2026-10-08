@@ -1,0 +1,28 @@
+# Generated viewers contain private photos, file paths and local verification data.
+/outputs/
+/build/
+/dist/
+.venv*/
+__pycache__/
+*.py[cod]
+*.spec
+*.lnk
+*.log
+.env
+.env.*
+!.env.example
+settings*.json
+webview-*/
+.DS_Store
+Thumbs.db
+
+# User photos are not source assets. Keep only the synthetic test fixture.
+*.jpg
+*.jpeg
+*.JPG
+*.JPEG
+*.png
+*.PNG
+*.webp
+*.WebP
+!tests/fixtures/exif-date.jpg
